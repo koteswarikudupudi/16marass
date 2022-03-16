@@ -1,0 +1,16 @@
+#write a program to separate even and odd numbers from the digit.
+'''Input: 1243536
+Output:1353 246'''
+s=input()
+l=list(s)
+o=[]
+e=[]
+for i in l:
+    if int(i)%2==0:
+        e.append(i)
+    else:
+        o.append(i)
+o.insert(len(o)+1,' ')
+x=o+e
+for i in x:
+    print(i,end='')
