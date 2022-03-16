@@ -3,7 +3,6 @@
 Output:1235'''
 s=input()
 l=list(s)
-print(l)
 x=[]
 for i in l:
     if i not in x:
